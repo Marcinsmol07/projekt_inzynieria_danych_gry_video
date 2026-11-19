@@ -1,3 +1,4 @@
 psycopg2-binary
+pandas
 google-cloud-bigquery
-google-auth
+db-dtypes
