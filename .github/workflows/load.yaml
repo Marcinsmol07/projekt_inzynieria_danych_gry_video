@@ -30,7 +30,7 @@ jobs:
           NEON_CONNECTION_STRING: ${{ secrets.NEON_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: gcp-key.json
           # --- TODO: studenci uzupełniają poniższe trzy wartości ---
-          BQ_PROJECT_ID: inzyniera-danych-wosiak-smol
+          BQ_PROJECT_ID: project-0911169c-a642-46ae-b84
           BQ_DATASET: game_store_data
           BQ_TABLE: publishers
         run: python extract_load.py
